@@ -15,7 +15,7 @@
 #include "socket.h"
 #include "shared_protocol.h"
 
-//#define PERIOD_CTRL 10
+//#define PERIOD_CTRL 10 dfhgg 
 
 /* Global variables ----------------------------------------------------------*/
 
