@@ -15,7 +15,7 @@
 #include "socket.h"
 #include "shared_protocol.h"
 
-//#define PERIOD_CTRL 10 dfhgg 
+//#define PERIOD_CTRL 10 dfhgg clanker code claker code
 
 /* Global variables ----------------------------------------------------------*/
 
@@ -23,7 +23,7 @@ int32_t reference, velocity, control;
 uint32_t millisec;
 
 
-static osThreadId_t main_id, rxtx_id, actuate_id; //< Defines thread IDs
+static osThreadId_t main_id, rxtx_id, actuate_id; //< Defines thread IDs fdfg dfg df g
 
 
 // rxtx mumbo jumbo
