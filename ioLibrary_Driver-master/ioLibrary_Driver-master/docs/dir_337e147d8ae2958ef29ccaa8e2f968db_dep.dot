@@ -1,0 +1,9 @@
+digraph "Ethernet/W5500" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a138ed074e64356ad02dbb8d94382c4f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Ethernet" fontname="Helvetica", fontsize="10", URL="dir_a138ed074e64356ad02dbb8d94382c4f.html"]
+  dir_337e147d8ae2958ef29ccaa8e2f968db [shape=box, label="W5500", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_337e147d8ae2958ef29ccaa8e2f968db.html"];
+  }
+}

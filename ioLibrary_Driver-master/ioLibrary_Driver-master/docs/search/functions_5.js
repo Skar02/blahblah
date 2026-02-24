@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['send_452',['send',['../group___w_i_znet__socket___a_p_is.html#gacd77c3cc60e87d09a5714932506d7c4b',1,'send(uint8_t sn, uint8_t *buf, uint16_t len):&#160;socket.c'],['../group___w_i_znet__socket___a_p_is.html#gacd77c3cc60e87d09a5714932506d7c4b',1,'send(uint8_t sn, uint8_t *buf, uint16_t len):&#160;socket.c']]],
+  ['sendto_453',['sendto',['../group___w_i_znet__socket___a_p_is.html#ga30fc77ba1005733b501994818bde12f8',1,'sendto(uint8_t sn, uint8_t *buf, uint16_t len, uint8_t *addr, uint16_t port):&#160;socket.c'],['../group___w_i_znet__socket___a_p_is.html#ga30fc77ba1005733b501994818bde12f8',1,'sendto(uint8_t sn, uint8_t *buf, uint16_t len, uint8_t *addr, uint16_t port):&#160;socket.c']]],
+  ['setsockopt_454',['setsockopt',['../group___w_i_znet__socket___a_p_is.html#ga0111e4784e20d97dacd5aaf54cb48ef1',1,'setsockopt(uint8_t sn, sockopt_type sotype, void *arg):&#160;socket.c'],['../group___w_i_znet__socket___a_p_is.html#ga0111e4784e20d97dacd5aaf54cb48ef1',1,'setsockopt(uint8_t sn, sockopt_type sotype, void *arg):&#160;socket.c']]],
+  ['socket_455',['socket',['../group___w_i_znet__socket___a_p_is.html#ga8cc0a2074b3aae98a132c1ae3c51188f',1,'socket(uint8_t sn, uint8_t protocol, uint16_t port, uint8_t flag):&#160;socket.c'],['../group___w_i_znet__socket___a_p_is.html#ga8cc0a2074b3aae98a132c1ae3c51188f',1,'socket(uint8_t sn, uint8_t protocol, uint16_t port, uint8_t flag):&#160;socket.c']]]
+];

@@ -1,0 +1,13 @@
+build-gen-idx:
+  generated-by: uVision version 5.41.0.0
+  generators:
+    - board: ""
+      device: STM32L476RGTx
+      id: CubeMX
+      output: C:/Users/persa/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/3.1.0/CMSIS/SVD/STM32CubeMX/RTOS/
+      project-type: single-core
+      cbuild-gens:
+        - cbuild-gen: C:/Users/persa/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/3.1.0/CMSIS/SVD/helpmekamisama.RTOS.cbuild-gen.yml
+          configuration: .RTOS
+          name: C:/Users/persa/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/3.1.0/CMSIS/SVD/STM32CubeMX/RTOS/helpmekamisama.cgen.yml
+          project: helpmekamisama

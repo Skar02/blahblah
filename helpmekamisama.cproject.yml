@@ -1,0 +1,111 @@
+project:
+  packs:
+    - pack: ARM::CMSIS-RTX@5.9.0
+      for-context: +RTOS
+    - pack: ARM::CMSIS-View@1.2.0
+      for-context: +RTOS
+    - pack: ARM::CMSIS@6.1.0
+      for-context: +Target1
+    - pack: ARM::CMSIS@6.3.0
+      for-context: +RTOS
+    - pack: Keil::ARM_Compiler@1.7.2
+    - pack: Keil::MDK-Middleware@7.17.0
+      for-context: +Target1
+    - pack: Keil::STM32L4xx_DFP@2.7.0
+    - pack: Keil::STM32NUCLEO_BSP@1.8.1
+      for-context: +Target1
+  setups:
+    - setup: Options for Target1, RTOS
+      processor:
+        fpu: sp
+      add-path:
+        - ProjectSkeletonCode/include
+      debug: "on"
+      define:
+        - __MICROLIB
+      define-asm:
+        - __MICROLIB
+      misc:
+        - C:
+            - -std=gnu99
+          C-CPP:
+            - -fno-rtti
+            - -funsigned-char
+            - -fshort-enums
+            - -fshort-wchar
+            - -ffunction-sections
+            - -Wno-packed
+            - -Wno-missing-variable-declarations
+            - -Wno-missing-prototypes
+            - -Wno-missing-noreturn
+            - -Wno-sign-conversion
+            - -Wno-nonportable-include-path
+            - -Wno-reserved-id-macro
+            - -Wno-unused-macros
+            - -Wno-documentation-unknown-command
+            - -Wno-documentation
+            - -Wno-license-management
+            - -Wno-parentheses-equality
+          CPP:
+            - -xc++
+            - -std=c++11
+          Link:
+            - --library_type=microlib
+            - --map
+            - --load_addr_map_info
+            - --xref
+            - --callgraph
+            - --symbols
+            - --info sizes
+            - --info totals
+            - --info unused
+            - --info veneers
+            - --strict
+            - --summary_stderr
+            - --info summarysizes
+  groups:
+    - group: Source Group 1
+      for-context: +Target1
+      misc:
+        - C:
+            - -Werror=sign-conversion -Werror=implicit-int-conversion -Werror=implicit-function-declaration
+          CPP:
+            - -xc++
+      files:
+        - file: ProjectSkeletonCode/source/application.c
+        - file: ProjectSkeletonCode/source/controller.c
+        - file: ProjectSkeletonCode/source/peripherals.c
+    - group: Source Group 1
+      for-context: +RTOS
+      misc:
+        - C:
+            - -Werror=sign-conversion -Werror=implicit-int-conversion -Werror=implicit-function-declaration
+          CPP:
+            - -xc++
+      files:
+        - file: ProjectSkeletonCode/source/controller.c
+        - file: ProjectSkeletonCode/source/peripherals.c
+        - file: ProjectSkeletonCode/source/app-rtos.c
+  components:
+    - component: ARM::CMSIS-View:Event Recorder&DAP
+      for-context: +RTOS
+    - component: ARM::CMSIS:CORE
+      for-context: +Target1
+    - component: ARM::CMSIS:CORE
+      for-context: +RTOS
+    - component: ARM::CMSIS:OS Tick:SysTick
+    - component: ARM::CMSIS:RTOS2:Keil RTX5&Source
+      for-context: +RTOS
+    - component: Keil::Compiler&ARM Compiler:I/O:STDOUT&ITM
+    - component: Keil::Device:STM32Cube Framework:STM32CubeMX
+    - component: Keil::Device:STM32Cube HAL:Common
+    - component: Keil::Device:STM32Cube HAL:Cortex
+    - component: Keil::Device:STM32Cube HAL:DMA
+    - component: Keil::Device:STM32Cube HAL:GPIO
+    - component: Keil::Device:STM32Cube HAL:PWR
+    - component: Keil::Device:STM32Cube HAL:RCC
+    - component: Keil::Device:STM32Cube HAL:TIM
+    - component: Keil::Device:Startup
+      misc:
+        - ASM:
+            - -masm=auto

@@ -1,0 +1,9 @@
+digraph "Socket register"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node2 [label="WIZCHIP register",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___w_i_z_c_h_i_p__register.html",tooltip="WHIZCHIP register defines register group of W5500."];
+  Node1 [label="Socket register",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Socket register group. Socket register configures and control SOCKETn which is necessary to data comm..."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+}

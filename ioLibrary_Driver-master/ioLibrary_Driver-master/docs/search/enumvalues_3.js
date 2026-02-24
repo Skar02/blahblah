@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['sik_5fall_574',['SIK_ALL',['../group___d_a_t_a___t_y_p_e.html#ggaa9d536c54137cd7b425c4c1e3cbfd49cab047934b1869746fbc0f144b5a750235',1,'socket.h']]],
+  ['sik_5fconnected_575',['SIK_CONNECTED',['../group___d_a_t_a___t_y_p_e.html#ggaa9d536c54137cd7b425c4c1e3cbfd49ca572b5fc4792b828241e3cb59c95d8162',1,'socket.h']]],
+  ['sik_5fdisconnected_576',['SIK_DISCONNECTED',['../group___d_a_t_a___t_y_p_e.html#ggaa9d536c54137cd7b425c4c1e3cbfd49ca9680dba91346657e5ace550b548e078b',1,'socket.h']]],
+  ['sik_5freceived_577',['SIK_RECEIVED',['../group___d_a_t_a___t_y_p_e.html#ggaa9d536c54137cd7b425c4c1e3cbfd49ca083fdc9e4e60122e9430e00cea78ecba',1,'socket.h']]],
+  ['sik_5fsent_578',['SIK_SENT',['../group___d_a_t_a___t_y_p_e.html#ggaa9d536c54137cd7b425c4c1e3cbfd49ca263f2ee924ce301138f6ff041d539bd2',1,'socket.h']]],
+  ['sik_5ftimeout_579',['SIK_TIMEOUT',['../group___d_a_t_a___t_y_p_e.html#ggaa9d536c54137cd7b425c4c1e3cbfd49ca9932f0ef330402b0f60a08073fd5a753',1,'socket.h']]],
+  ['so_5fdestip_580',['SO_DESTIP',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944aedcfb91978540124a81e0302c58bb6d7',1,'socket.h']]],
+  ['so_5fdestport_581',['SO_DESTPORT',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944a3429f41e7099b4badca2630c7a5e4f1c',1,'socket.h']]],
+  ['so_5fflag_582',['SO_FLAG',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944af21c9fec4a305d9504e0487f7ae7fc26',1,'socket.h']]],
+  ['so_5fkeepaliveauto_583',['SO_KEEPALIVEAUTO',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944a779fa4480ecb9a4b247bd6130c25647f',1,'socket.h']]],
+  ['so_5fkeepalivesend_584',['SO_KEEPALIVESEND',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944a2bf80fd82c7e9231c427cd62a5d62cf0',1,'socket.h']]],
+  ['so_5fmss_585',['SO_MSS',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944ae7f6aaf2aaef0519a813b3e26ef9c4fd',1,'socket.h']]],
+  ['so_5fpackinfo_586',['SO_PACKINFO',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944af1a89a6cfe6fce7381f825553de1a905',1,'socket.h']]],
+  ['so_5frecvbuf_587',['SO_RECVBUF',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944ab30861739974726fb7a170bbac572c22',1,'socket.h']]],
+  ['so_5fremainsize_588',['SO_REMAINSIZE',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944ac8e0d12b5a8ee43e5ebe37a39b31988a',1,'socket.h']]],
+  ['so_5fsendbuf_589',['SO_SENDBUF',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944a1b0e150a176b12a227d6ab7c294fc05a',1,'socket.h']]],
+  ['so_5fstatus_590',['SO_STATUS',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944a3f76c1b04cfc969826bed37a3c4cff06',1,'socket.h']]],
+  ['so_5ftos_591',['SO_TOS',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944afef2289d3bfeecda602214576b0a42e3',1,'socket.h']]],
+  ['so_5fttl_592',['SO_TTL',['../group___d_a_t_a___t_y_p_e.html#gga2f86b7ad233f3b8d6ae0af3ee91e9944a69762968a8cae82544deffe1c3ac32cf',1,'socket.h']]]
+];

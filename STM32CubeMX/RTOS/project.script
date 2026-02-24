@@ -1,0 +1,5 @@
+load STM32L476RGTx
+project name STM32CubeMX
+project toolchain "MDK-ARM V5"
+project path "C:\Users\persa\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\3.1.0\CMSIS\SVD\STM32CubeMX\RTOS"
+SetCopyLibrary "copy only"

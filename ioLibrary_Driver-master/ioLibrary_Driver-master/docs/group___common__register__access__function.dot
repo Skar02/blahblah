@@ -1,0 +1,9 @@
+digraph "Common register access functions"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node2 [label="WIZCHIP I/O functions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___w_i_z_c_h_i_p___i_o___functions.html",tooltip="This supports the basic I/O functions for WIZCHIP register."];
+  Node1 [label="Common register access\l functions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="These are functions to access common registers."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+}

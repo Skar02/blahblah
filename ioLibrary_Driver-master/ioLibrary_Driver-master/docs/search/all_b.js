@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['pack_5fcompleted_171',['PACK_COMPLETED',['../socket_8h.html#ae06c5dba7f49f92040308a7219f0b891',1,'socket.h']]],
+  ['pack_5ffifobyte_172',['PACK_FIFOBYTE',['../socket_8h.html#aa6b2c5b7486575f6fa7d173faa9ce1a1',1,'socket.h']]],
+  ['pack_5ffirst_173',['PACK_FIRST',['../socket_8h.html#a970d74802b0e51a57d2036ada9f956fd',1,'socket.h']]],
+  ['pack_5fremained_174',['PACK_REMAINED',['../socket_8h.html#ac562b74bdfbd701536d2bd0be62f5280',1,'socket.h']]],
+  ['phar_175',['PHAR',['../group___common__register__group.html#ga3ed5558b8cfbba78bf63fb2b8c907c38',1,'w5500.h']]],
+  ['phy_5fconfby_5fhw_176',['PHY_CONFBY_HW',['../wizchip__conf_8h.html#a041ee84835137a0e9b44195c59094058',1,'wizchip_conf.h']]],
+  ['phy_5fconfby_5fsw_177',['PHY_CONFBY_SW',['../wizchip__conf_8h.html#a2c4dfff024962b4a520a0f64c5b482c7',1,'wizchip_conf.h']]],
+  ['phy_5fduplex_5ffull_178',['PHY_DUPLEX_FULL',['../wizchip__conf_8h.html#a917f75644ef5f928c69d70f66883a4fa',1,'wizchip_conf.h']]],
+  ['phy_5fduplex_5fhalf_179',['PHY_DUPLEX_HALF',['../wizchip__conf_8h.html#a9e54992dd7df699ba0a6b8846c4bd503',1,'wizchip_conf.h']]],
+  ['phy_5flink_5foff_180',['PHY_LINK_OFF',['../wizchip__conf_8h.html#a471064afdaa53206fb0ef209e1c8257e',1,'wizchip_conf.h']]],
+  ['phy_5flink_5fon_181',['PHY_LINK_ON',['../wizchip__conf_8h.html#acb165f18d53ffaa8c7691312e76e8d43',1,'wizchip_conf.h']]],
+  ['phy_5fmode_5fautonego_182',['PHY_MODE_AUTONEGO',['../wizchip__conf_8h.html#a0fec3063a62bbbc9ed44004fe8d565ad',1,'wizchip_conf.h']]],
+  ['phy_5fmode_5fmanual_183',['PHY_MODE_MANUAL',['../wizchip__conf_8h.html#ada95bdaad545f87518e3d60760345eba',1,'wizchip_conf.h']]],
+  ['phy_5fpower_5fdown_184',['PHY_POWER_DOWN',['../wizchip__conf_8h.html#a6a72de7df3c5d48c93dbbac2248d566d',1,'wizchip_conf.h']]],
+  ['phy_5fpower_5fnorm_185',['PHY_POWER_NORM',['../wizchip__conf_8h.html#aec45fdaf72e12f9b7958c77bb4ff4913',1,'wizchip_conf.h']]],
+  ['phy_5fspeed_5f10_186',['PHY_SPEED_10',['../wizchip__conf_8h.html#ae18a71e8a9558b4cead60cee7a438cf1',1,'wizchip_conf.h']]],
+  ['phy_5fspeed_5f100_187',['PHY_SPEED_100',['../wizchip__conf_8h.html#ad5fdd2d68e54573c921a7e790c541d70',1,'wizchip_conf.h']]],
+  ['phycfgr_188',['PHYCFGR',['../group___common__register__group.html#ga7cc24f47ca8dcb311ade3a0bcbd74eaf',1,'w5500.h']]],
+  ['pmagic_189',['PMAGIC',['../group___common__register__group.html#ga162ee07110c2c639f7fa2de585d65e23',1,'w5500.h']]],
+  ['pmru_190',['PMRU',['../group___common__register__group.html#ga5d3d5eb120bed5e04464780d82ca5f2e',1,'w5500.h']]],
+  ['psid_191',['PSID',['../group___common__register__group.html#ga0220d54b2e7b00e196a7010a1cb25a58',1,'w5500.h']]],
+  ['ptimer_192',['PTIMER',['../group___common__register__group.html#ga29dd564a4c90f2efa7cc7ee03ddba7d5',1,'w5500.h']]]
+];
