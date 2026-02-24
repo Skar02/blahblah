@@ -54,7 +54,7 @@ static void app_actuate(void *arg);
 static int32_t send_all(uint8_t socket_num, const void *buf, uint16_t len);
 static int32_t recv_all(uint8_t socket_num, void *buf, uint16_t len, uint32_t timeout_ms);
 
-// Defines attributes for main_id and app_main()
+// Defines attributes for main_id and app_main() other changes
 static const osThreadAttr_t threadAttr_main = {
 	.name       = "app_main",
 	.stack_size = 128*4,         // Application_Loop call + waiting for flags, small call-stack => 256 bytes, with margin => 512 bytes
